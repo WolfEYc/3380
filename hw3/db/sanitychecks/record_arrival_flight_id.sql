@@ -1,0 +1,1 @@
+SELECT EXISTS (SELECT 1 FROM Flight WHERE flight_id = $1);
